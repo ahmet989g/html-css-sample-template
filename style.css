@@ -1,0 +1,57 @@
+body {
+    background-color: #F1EEE9;
+}
+
+h1 {
+    color: #15133C;
+    text-align: center;
+}
+
+.nav a {
+    color: #15133C;
+    background-color: #EC994B;
+    text-shadow: 1px;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    transition: all 150ms ease-in-out;
+}
+
+.nav a:hover {
+    color: #EC994B;
+    background-color: #15133C;
+}
+
+.nav a.active {
+    color: #EC994B;
+    background-color: #15133C;
+}
+
+h2 {
+    color: #15133C;
+    text-align: center;
+    list-style-position: inside;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20;
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+    margin-left: 10;
+}
+
+.nav {
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 1px solid;
+}
